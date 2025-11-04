@@ -6,7 +6,7 @@ import {
   Github, 
   Linkedin, 
   Code2, 
-  Briefcase, 
+  Trophy,
   GraduationCap,
   ExternalLink,
   Calendar,
@@ -70,6 +70,59 @@ function App() {
             <p className="hero-description">
               Programador y estudiante de Ingeniería Civil Informática en Chile &#x1F1E8;&#x1F1F1;
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="section">
+        <div className="container">
+          <h2 className="section-title">Sobre mí</h2>
+          <div className="about-content">
+            <div className="about-profile">
+              <div className="about-image-container">
+                <img 
+                  src="portfolio-photo.jpeg" 
+                  alt="Foto de perfil" 
+                  className="about-image"
+                />
+              </div>
+              <div className="about-text">
+                <p>
+                  Me apasiona crear soluciones innovadoras y eficientes a través de la tecnología.
+                  Disfruto enfrentando desafíos que me permitan aplicar mis conocimientos y desarrollar
+                  nuevas habilidades.
+                </p>
+                <p>
+                  Actualmente estoy estudiando un <strong>Magíster en Ciencia de Datos</strong>, donde continúo
+                  expandiendo mis conocimientos en análisis de datos, machine learning y tecnologías emergentes.
+                  Siempre busco aprender y fortalecer mis habilidades para crecer como profesional.
+                </p>
+              </div>
+            </div>
+            <div className="about-stats">
+              <div className="stat-item">
+                <GraduationCap size={24} className="stat-icon" />
+                <div>
+                  <h4>Estudiando</h4>
+                  <p>Magíster en Ciencia de Datos</p>
+                </div>
+              </div>
+              <div className="stat-item">
+                <Trophy size={24} className="stat-icon" />
+                <div>
+                  <h4>Premio</h4>
+                  <p>Rendimiento académico (6.5/A+)</p>
+                </div>
+              </div>
+              <div className="stat-item">
+                <Code2 size={24} className="stat-icon" />
+                <div>
+                  <h4>Aprendiendo</h4>
+                  <p>Continuo aprendizaje y mejora</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -222,58 +275,6 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="section">
-        <div className="container">
-          <h2 className="section-title">Sobre mí</h2>
-          <div className="about-content">
-            <div className="about-profile">
-              <div className="about-image-container">
-                <img 
-                  src="portfolio-photo.jpeg" 
-                  alt="Foto de perfil" 
-                  className="about-image"
-                />
-              </div>
-              <div className="about-text">
-                <p>
-                  Me apasiona crear soluciones innovadoras y eficientes a través de la tecnología.
-                  Disfruto enfrentando desafíos que me permitan aplicar mis conocimientos y desarrollar
-                  nuevas habilidades.
-                </p>
-                <p>
-                  Actualmente estoy estudiando un <strong>Magíster en Ciencia de Datos</strong>, donde continúo
-                  expandiendo mis conocimientos en análisis de datos, machine learning y tecnologías emergentes.
-                  Siempre busco aprender y fortalecer mis habilidades para crecer como profesional.
-                </p>
-              </div>
-            </div>
-            <div className="about-stats">
-              <div className="stat-item">
-                <GraduationCap size={24} className="stat-icon" />
-                <div>
-                  <h4>Estudiando</h4>
-                  <p>Magíster en Ciencia de Datos</p>
-                </div>
-              </div>
-              <div className="stat-item">
-                <Briefcase size={24} className="stat-icon" />
-                <div>
-                  <h4>Premio</h4>
-                  <p>Rendimiento académico (6.5/A+)</p>
-                </div>
-              </div>
-              <div className="stat-item">
-                <Code2 size={24} className="stat-icon" />
-                <div>
-                  <h4>Continuo</h4>
-                  <p>Aprendizaje y mejora</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section id="contact" className="section">
